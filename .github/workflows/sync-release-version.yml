@@ -98,7 +98,7 @@ jobs:
             action.yml
 
       - name: Run git-cliff
-        uses: tj-actions/git-cliff@v1
+        uses: tj-actions/git-cliff@v2
 
       - name: Get branch name
         id: branch-name
